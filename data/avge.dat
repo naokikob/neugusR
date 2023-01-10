@@ -1,0 +1,658 @@
+Signature:
+avge List Int
+Constraints:
+P avge [ 6 7 2 8 5 ] 5
+N avge [ 6 7 2 8 5 ] 6
+P avge [ 3 2 ] 1
+N avge [ 3 2 ] 4
+P avge [ 8 5 2 7 ] 5
+N avge [ 8 5 2 7 ] 7
+P avge [ 2 7 8 4 1 ] 4
+N avge [ 2 7 8 4 1 ] 6
+P avge [ 3 ] 2
+N avge [ 3 ] 4
+P avge [ 4 ] 3
+N avge [ 4 ] 6
+P avge [ 5 8 4 ] 5
+N avge [ 5 8 4 ] 7
+P avge [ 3 5 4 5 3 ] 4
+N avge [ 3 5 4 5 3 ] 5
+P avge [ 7 1 4 6 ] 3
+N avge [ 7 1 4 6 ] 5
+P avge [ 7 3 ] 4
+N avge [ 7 3 ] 6
+P avge [ 4 7 5 7 4 ] 5
+N avge [ 4 7 5 7 4 ] 7
+P avge [ 5 7 5 4 ] 5
+N avge [ 5 7 5 4 ] 6
+P avge [ 2 8 6 8 ] 5
+N avge [ 2 8 6 8 ] 7
+P avge [ 3 7 6 1 6 ] 3
+N avge [ 3 7 6 1 6 ] 5
+P avge [ 2 1 2 2 ] 0
+N avge [ 2 1 2 2 ] 2
+P avge [ 3 4 1 ] 2
+N avge [ 3 4 1 ] 3
+P avge [ 8 1 ] 3
+N avge [ 8 1 ] 6
+P avge [ 3 2 ] 2
+N avge [ 3 2 ] 3
+P avge [ 6 1 2 6 ] 2
+N avge [ 6 1 2 6 ] 5
+P avge [ 2 8 ] 5
+N avge [ 2 8 ] 6
+P avge [ 3 8 ] 5
+N avge [ 3 8 ] 6
+P avge [ 8 1 8 4 3 ] 3
+N avge [ 8 1 8 4 3 ] 5
+P avge [ 4 1 8 3 ] 3
+N avge [ 4 1 8 3 ] 5
+P avge [ 3 8 5 ] 4
+N avge [ 3 8 5 ] 6
+P avge [ 1 3 ] 1
+N avge [ 1 3 ] 4
+P avge [ 7 3 8 4 ] 4
+N avge [ 7 3 8 4 ] 6
+P avge [ 6 ] 5
+N avge [ 6 ] 8
+P avge [ 2 5 3 ] 2
+N avge [ 2 5 3 ] 5
+P avge [ 8 6 1 6 ] 5
+N avge [ 8 6 1 6 ] 7
+P avge [ 7 1 ] 3
+N avge [ 7 1 ] 5
+P avge [ 8 5 8 7 ] 6
+N avge [ 8 5 8 7 ] 8
+P avge [ 4 8 5 4 3 ] 3
+N avge [ 4 8 5 4 3 ] 5
+P avge [ 3 2 7 4 1 ] 3
+N avge [ 3 2 7 4 1 ] 5
+P avge [ 3 ] 3
+N avge [ 3 ] 5
+P avge [ 3 7 3 3 5 ] 4
+N avge [ 3 7 3 3 5 ] 5
+P avge [ 5 ] 4
+N avge [ 5 ] 6
+P avge [ 1 6 ] 3
+N avge [ 1 6 ] 5
+P avge [ 7 ] 7
+N avge [ 7 ] 8
+P avge [ 1 6 5 ] 3
+N avge [ 1 6 5 ] 5
+P avge [ 5 ] 4
+N avge [ 5 ] 6
+P avge [ 1 5 7 7 8 ] 5
+N avge [ 1 5 7 7 8 ] 6
+P avge [ 7 ] 7
+N avge [ 7 ] 8
+P avge [ 5 ] 4
+N avge [ 5 ] 6
+P avge [ 3 4 2 4 5 ] 3
+N avge [ 3 4 2 4 5 ] 4
+P avge [ 1 8 ] 3
+N avge [ 1 8 ] 6
+P avge [ 6 7 ] 5
+N avge [ 6 7 ] 8
+P avge [ 6 7 6 5 ] 6
+N avge [ 6 7 6 5 ] 7
+P avge [ 5 4 7 3 2 ] 4
+N avge [ 5 4 7 3 2 ] 6
+P avge [ 8 3 3 ] 3
+N avge [ 8 3 3 ] 6
+P avge [ 8 6 ] 7
+N avge [ 8 6 ] 8
+P avge [ 6 5 ] 5
+N avge [ 6 5 ] 7
+P avge [ 8 4 ] 6
+N avge [ 8 4 ] 8
+P avge [ 8 8 7 1 ] 5
+N avge [ 8 8 7 1 ] 8
+P avge [ 7 1 6 ] 4
+N avge [ 7 1 6 ] 6
+P avge [ 4 ] 4
+N avge [ 4 ] 5
+P avge [ 3 3 6 4 ] 3
+N avge [ 3 3 6 4 ] 5
+P avge [ 3 ] 2
+N avge [ 3 ] 5
+P avge [ 4 3 6 5 7 ] 4
+N avge [ 4 3 6 5 7 ] 6
+P avge [ 6 4 ] 5
+N avge [ 6 4 ] 6
+P avge [ 6 ] 6
+N avge [ 6 ] 8
+P avge [ 3 1 ] 1
+N avge [ 3 1 ] 4
+P avge [ 8 2 ] 5
+N avge [ 8 2 ] 6
+P avge [ 1 2 3 ] 2
+N avge [ 1 2 3 ] 3
+P avge [ 8 8 2 4 2 ] 3
+N avge [ 8 8 2 4 2 ] 6
+P avge [ 7 4 5 2 ] 3
+N avge [ 7 4 5 2 ] 5
+P avge [ 3 3 1 ] 1
+N avge [ 3 3 1 ] 4
+P avge [ 5 3 7 2 ] 3
+N avge [ 5 3 7 2 ] 6
+P avge [ 8 6 ] 7
+N avge [ 8 6 ] 8
+P avge [ 7 4 2 7 2 ] 4
+N avge [ 7 4 2 7 2 ] 5
+P avge [ 6 ] 5
+N avge [ 6 ] 8
+P avge [ 5 4 4 7 2 ] 3
+N avge [ 5 4 4 7 2 ] 5
+P avge [ 2 4 ] 3
+N avge [ 2 4 ] 5
+P avge [ 7 5 3 5 1 ] 4
+N avge [ 7 5 3 5 1 ] 6
+P avge [ 7 2 4 ] 4
+N avge [ 7 2 4 ] 6
+P avge [ 5 3 1 6 1 ] 2
+N avge [ 5 3 1 6 1 ] 4
+P avge [ 8 ] 7
+N avge [ 8 ] 10
+P avge [ 8 7 ] 7
+N avge [ 8 7 ] 9
+P avge [ 2 8 ] 4
+N avge [ 2 8 ] 6
+P avge [ 3 7 5 7 2 ] 4
+N avge [ 3 7 5 7 2 ] 6
+P avge [ 2 1 4 2 6 ] 2
+N avge [ 2 1 4 2 6 ] 5
+P avge [ 4 ] 4
+N avge [ 4 ] 5
+P avge [ 4 7 1 ] 3
+N avge [ 4 7 1 ] 6
+P avge [ 1 1 7 6 3 ] 2
+N avge [ 1 1 7 6 3 ] 4
+P avge [ 5 8 4 ] 4
+N avge [ 5 8 4 ] 6
+P avge [ 6 1 4 8 3 ] 3
+N avge [ 6 1 4 8 3 ] 5
+P avge [ 1 ] 1
+N avge [ 1 ] 3
+P avge [ 5 8 1 7 8 ] 4
+N avge [ 5 8 1 7 8 ] 7
+P avge [ 4 4 4 7 3 ] 3
+N avge [ 4 4 4 7 3 ] 5
+P avge [ 2 7 8 6 ] 4
+N avge [ 2 7 8 6 ] 7
+P avge [ 4 4 5 7 5 ] 4
+N avge [ 4 4 5 7 5 ] 7
+P avge [ 7 3 ] 4
+N avge [ 7 3 ] 6
+P avge [ 7 1 8 2 5 ] 3
+N avge [ 7 1 8 2 5 ] 5
+P avge [ 2 ] 1
+N avge [ 2 ] 3
+P avge [ 4 ] 4
+N avge [ 4 ] 5
+P avge [ 6 6 1 ] 3
+N avge [ 6 6 1 ] 6
+P avge [ 3 ] 2
+N avge [ 3 ] 5
+P avge [ 5 2 4 2 7 ] 4
+N avge [ 5 2 4 2 7 ] 5
+P avge [ 3 ] 3
+N avge [ 3 ] 4
+P avge [ 5 2 ] 3
+N avge [ 5 2 ] 4
+P avge [ 6 ] 5
+N avge [ 6 ] 7
+P avge [ 5 4 6 2 8 ] 4
+N avge [ 5 4 6 2 8 ] 6
+P avge [ 7 7 ] 6
+N avge [ 7 7 ] 8
+P avge [ 3 1 3 4 ] 2
+N avge [ 3 1 3 4 ] 3
+P avge [ 1 5 ] 2
+N avge [ 1 5 ] 4
+P avge [ 7 4 4 5 ] 4
+N avge [ 7 4 4 5 ] 6
+P avge [ 8 2 5 ] 4
+N avge [ 8 2 5 ] 6
+P avge [ 8 ] 7
+N avge [ 8 ] 10
+P avge [ 7 5 8 2 ] 5
+N avge [ 7 5 8 2 ] 6
+P avge [ 7 1 6 ] 3
+N avge [ 7 1 6 ] 6
+P avge [ 6 6 3 ] 5
+N avge [ 6 6 3 ] 7
+P avge [ 8 ] 8
+N avge [ 8 ] 10
+P avge [ 1 ] 1
+N avge [ 1 ] 3
+P avge [ 6 7 3 2 ] 4
+N avge [ 6 7 3 2 ] 5
+P avge [ 2 1 3 ] 2
+N avge [ 2 1 3 ] 4
+P avge [ 3 7 7 ] 5
+N avge [ 3 7 7 ] 7
+P avge [ 3 4 1 1 6 ] 3
+N avge [ 3 4 1 1 6 ] 4
+P avge [ 6 3 3 6 7 ] 4
+N avge [ 6 3 3 6 7 ] 6
+P avge [ 6 6 4 2 ] 3
+N avge [ 6 6 4 2 ] 6
+P avge [ 6 1 1 3 ] 2
+N avge [ 6 1 1 3 ] 4
+P avge [ 3 ] 2
+N avge [ 3 ] 4
+P avge [ 6 ] 6
+N avge [ 6 ] 8
+P avge [ 8 ] 7
+N avge [ 8 ] 9
+P avge [ 1 4 5 7 6 ] 4
+N avge [ 1 4 5 7 6 ] 5
+P avge [ 6 6 4 1 ] 3
+N avge [ 6 6 4 1 ] 5
+P avge [ 7 5 3 5 ] 5
+N avge [ 7 5 3 5 ] 7
+P avge [ 5 6 ] 5
+N avge [ 5 6 ] 7
+P avge [ 6 3 8 3 6 ] 4
+N avge [ 6 3 8 3 6 ] 6
+P avge [ 6 6 6 ] 5
+N avge [ 6 6 6 ] 8
+P avge [ 6 4 1 3 2 ] 3
+N avge [ 6 4 1 3 2 ] 5
+P avge [ 5 4 ] 3
+N avge [ 5 4 ] 6
+P avge [ 6 3 4 ] 3
+N avge [ 6 3 4 ] 5
+P avge [ 6 5 1 1 ] 3
+N avge [ 6 5 1 1 ] 4
+P avge [ 1 4 8 2 6 ] 4
+N avge [ 1 4 8 2 6 ] 6
+P avge [ 3 7 2 4 ] 4
+N avge [ 3 7 2 4 ] 5
+P avge [ 6 ] 5
+N avge [ 6 ] 7
+P avge [ 7 ] 6
+N avge [ 7 ] 9
+P avge [ 2 8 6 3 2 ] 4
+N avge [ 2 8 6 3 2 ] 5
+P avge [ 8 8 ] 7
+N avge [ 8 8 ] 10
+P avge [ 5 7 4 7 ] 4
+N avge [ 5 7 4 7 ] 7
+P avge [ 8 6 2 ] 4
+N avge [ 8 6 2 ] 6
+P avge [ 4 7 7 ] 6
+N avge [ 4 7 7 ] 7
+P avge [ 7 3 7 ] 5
+N avge [ 7 3 7 ] 7
+P avge [ 8 2 2 ] 4
+N avge [ 8 2 2 ] 5
+P avge [ 7 6 1 1 ] 3
+N avge [ 7 6 1 1 ] 4
+P avge [ 8 ] 7
+N avge [ 8 ] 9
+P avge [ 2 3 5 ] 3
+N avge [ 2 3 5 ] 4
+P avge [ 8 ] 7
+N avge [ 8 ] 9
+P avge [ 5 4 3 6 ] 4
+N avge [ 5 4 3 6 ] 6
+P avge [ 8 6 ] 7
+N avge [ 8 6 ] 9
+P avge [ 3 8 8 8 ] 6
+N avge [ 3 8 8 8 ] 8
+P avge [ 5 ] 5
+N avge [ 5 ] 6
+P avge [ 6 6 7 2 4 ] 4
+N avge [ 6 6 7 2 4 ] 7
+P avge [ 5 ] 5
+N avge [ 5 ] 6
+P avge [ 6 4 7 5 ] 4
+N avge [ 6 4 7 5 ] 6
+P avge [ 4 ] 4
+N avge [ 4 ] 6
+P avge [ 3 4 ] 2
+N avge [ 3 4 ] 4
+P avge [ 2 7 4 ] 4
+N avge [ 2 7 4 ] 6
+P avge [ 2 4 6 ] 3
+N avge [ 2 4 6 ] 5
+P avge [ 7 ] 7
+N avge [ 7 ] 8
+P avge [ 8 4 ] 5
+N avge [ 8 4 ] 7
+P avge [ 1 7 8 2 8 ] 4
+N avge [ 1 7 8 2 8 ] 7
+P avge [ 8 ] 8
+N avge [ 8 ] 9
+P avge [ 1 1 3 7 5 ] 3
+N avge [ 1 1 3 7 5 ] 5
+P avge [ 6 3 4 4 3 ] 4
+N avge [ 6 3 4 4 3 ] 5
+P avge [ 1 8 6 6 1 ] 3
+N avge [ 1 8 6 6 1 ] 5
+P avge [ 2 8 ] 4
+N avge [ 2 8 ] 7
+P avge [ 2 2 ] 1
+N avge [ 2 2 ] 3
+P avge [ 1 5 8 ] 3
+N avge [ 1 5 8 ] 5
+P avge [ 7 ] 6
+N avge [ 7 ] 9
+P avge [ 2 4 6 3 ] 2
+N avge [ 2 4 6 3 ] 4
+P avge [ 5 6 8 8 ] 5
+N avge [ 5 6 8 8 ] 7
+P avge [ 8 4 1 3 3 ] 3
+N avge [ 8 4 1 3 3 ] 5
+P avge [ 7 7 5 2 7 ] 5
+N avge [ 7 7 5 2 7 ] 7
+P avge [ 3 5 ] 3
+N avge [ 3 5 ] 5
+P avge [ 1 1 ] 1
+N avge [ 1 1 ] 2
+P avge [ 2 3 7 ] 3
+N avge [ 2 3 7 ] 6
+P avge [ 5 6 5 ] 5
+N avge [ 5 6 5 ] 7
+P avge [ 4 3 ] 3
+N avge [ 4 3 ] 5
+P avge [ 3 6 2 ] 2
+N avge [ 3 6 2 ] 4
+P avge [ 2 6 4 3 ] 3
+N avge [ 2 6 4 3 ] 4
+P avge [ 2 7 8 1 ] 4
+N avge [ 2 7 8 1 ] 5
+P avge [ 6 4 ] 4
+N avge [ 6 4 ] 6
+P avge [ 1 8 3 6 2 ] 4
+N avge [ 1 8 3 6 2 ] 5
+P avge [ 2 3 4 1 2 ] 2
+N avge [ 2 3 4 1 2 ] 3
+P avge [ 6 8 4 7 ] 5
+N avge [ 6 8 4 7 ] 7
+P avge [ 4 1 7 2 6 ] 3
+N avge [ 4 1 7 2 6 ] 5
+P avge [ 4 3 3 ] 2
+N avge [ 4 3 3 ] 4
+P avge [ 5 8 3 ] 4
+N avge [ 5 8 3 ] 7
+P avge [ 6 2 5 4 ] 4
+N avge [ 6 2 5 4 ] 6
+P avge [ 4 6 4 ] 4
+N avge [ 4 6 4 ] 5
+P avge [ 2 6 ] 3
+N avge [ 2 6 ] 5
+P avge [ 3 4 ] 2
+N avge [ 3 4 ] 5
+P avge [ 2 4 8 ] 3
+N avge [ 2 4 8 ] 5
+P avge [ 1 1 6 1 3 ] 2
+N avge [ 1 1 6 1 3 ] 3
+P avge [ 2 3 2 5 ] 2
+N avge [ 2 3 2 5 ] 4
+P avge [ 6 4 5 ] 4
+N avge [ 6 4 5 ] 7
+P avge [ 5 2 3 7 ] 4
+N avge [ 5 2 3 7 ] 6
+P avge [ 3 ] 2
+N avge [ 3 ] 5
+P avge [ 3 2 1 8 ] 2
+N avge [ 3 2 1 8 ] 4
+P avge [ 5 ] 5
+N avge [ 5 ] 7
+P avge [ 8 ] 7
+N avge [ 8 ] 10
+P avge [ 8 4 6 ] 5
+N avge [ 8 4 6 ] 7
+P avge [ 8 8 2 4 2 ] 4
+N avge [ 8 8 2 4 2 ] 6
+P avge [ 3 1 3 6 8 ] 3
+N avge [ 3 1 3 6 8 ] 6
+P avge [ 3 2 5 4 1 ] 2
+N avge [ 3 2 5 4 1 ] 4
+P avge [ 3 ] 2
+N avge [ 3 ] 4
+P avge [ 5 ] 5
+N avge [ 5 ] 7
+P avge [ 4 8 4 8 6 ] 5
+N avge [ 4 8 4 8 6 ] 7
+P avge [ 6 ] 5
+N avge [ 6 ] 7
+P avge [ 2 3 2 3 ] 2
+N avge [ 2 3 2 3 ] 3
+P avge [ 1 5 8 8 ] 4
+N avge [ 1 5 8 8 ] 7
+P avge [ 6 2 4 5 ] 4
+N avge [ 6 2 4 5 ] 5
+P avge [ 5 8 1 7 ] 5
+N avge [ 5 8 1 7 ] 7
+P avge [ 7 8 6 ] 6
+N avge [ 7 8 6 ] 9
+P avge [ 2 5 ] 2
+N avge [ 2 5 ] 5
+P avge [ 6 4 3 2 3 ] 2
+N avge [ 6 4 3 2 3 ] 5
+P avge [ 5 ] 4
+N avge [ 5 ] 7
+P avge [ 7 3 6 7 ] 4
+N avge [ 7 3 6 7 ] 6
+P avge [ 7 1 ] 4
+N avge [ 7 1 ] 5
+P avge [ 3 8 5 7 2 ] 4
+N avge [ 3 8 5 7 2 ] 7
+P avge [ 8 5 4 7 3 ] 5
+N avge [ 8 5 4 7 3 ] 6
+P avge [ 4 6 5 8 8 ] 6
+N avge [ 4 6 5 8 8 ] 8
+P avge [ 4 2 5 6 ] 4
+N avge [ 4 2 5 6 ] 6
+P avge [ 1 4 5 4 ] 2
+N avge [ 1 4 5 4 ] 5
+P avge [ 3 8 4 ] 5
+N avge [ 3 8 4 ] 6
+P avge [ 6 2 4 ] 3
+N avge [ 6 2 4 ] 6
+P avge [ 2 2 8 4 ] 4
+N avge [ 2 2 8 4 ] 5
+P avge [ 5 8 1 5 4 ] 3
+N avge [ 5 8 1 5 4 ] 6
+P avge [ 2 6 5 7 5 ] 5
+N avge [ 2 6 5 7 5 ] 7
+P avge [ 3 5 ] 4
+N avge [ 3 5 ] 6
+P avge [ 3 6 2 2 ] 2
+N avge [ 3 6 2 2 ] 5
+P avge [ 4 ] 4
+N avge [ 4 ] 6
+P avge [ 3 3 7 4 4 ] 4
+N avge [ 3 3 7 4 4 ] 5
+P avge [ 6 3 5 8 ] 4
+N avge [ 6 3 5 8 ] 6
+P avge [ 4 3 ] 3
+N avge [ 4 3 ] 4
+P avge [ 7 2 5 6 ] 4
+N avge [ 7 2 5 6 ] 6
+P avge [ 3 4 7 ] 3
+N avge [ 3 4 7 ] 5
+P avge [ 8 4 4 7 1 ] 3
+N avge [ 8 4 4 7 1 ] 6
+P avge [ 1 4 5 ] 2
+N avge [ 1 4 5 ] 5
+P avge [ 8 6 2 1 ] 3
+N avge [ 8 6 2 1 ] 6
+P avge [ 7 2 ] 3
+N avge [ 7 2 ] 5
+P avge [ 7 8 8 ] 6
+N avge [ 7 8 8 ] 9
+P avge [ 1 4 5 5 2 ] 3
+N avge [ 1 4 5 5 2 ] 4
+P avge [ 5 5 7 6 3 ] 4
+N avge [ 5 5 7 6 3 ] 6
+P avge [ 7 ] 6
+N avge [ 7 ] 8
+P avge [ 7 5 5 2 7 ] 5
+N avge [ 7 5 5 2 7 ] 7
+P avge [ 7 4 3 8 ] 5
+N avge [ 7 4 3 8 ] 6
+P avge [ 5 6 4 ] 4
+N avge [ 5 6 4 ] 7
+P avge [ 8 ] 8
+N avge [ 8 ] 10
+P avge [ 6 ] 6
+N avge [ 6 ] 7
+P avge [ 4 7 ] 4
+N avge [ 4 7 ] 7
+P avge [ 8 5 3 ] 5
+N avge [ 8 5 3 ] 6
+P avge [ 2 ] 2
+N avge [ 2 ] 3
+P avge [ 7 8 ] 6
+N avge [ 7 8 ] 8
+P avge [ 3 ] 3
+N avge [ 3 ] 5
+P avge [ 8 ] 8
+N avge [ 8 ] 10
+P avge [ 5 5 2 1 ] 3
+N avge [ 5 5 2 1 ] 4
+P avge [ 3 1 6 ] 3
+N avge [ 3 1 6 ] 5
+P avge [ 5 ] 4
+N avge [ 5 ] 7
+P avge [ 6 4 3 ] 3
+N avge [ 6 4 3 ] 5
+P avge [ 1 ] 1
+N avge [ 1 ] 2
+P avge [ 2 2 1 ] 0
+N avge [ 2 2 1 ] 3
+P avge [ 8 5 8 ] 7
+N avge [ 8 5 8 ] 8
+P avge [ 8 5 7 ] 5
+N avge [ 8 5 7 ] 8
+P avge [ 1 6 4 1 2 ] 1
+N avge [ 1 6 4 1 2 ] 4
+P avge [ 6 ] 5
+N avge [ 6 ] 8
+P avge [ 6 4 5 2 6 ] 4
+N avge [ 6 4 5 2 6 ] 5
+P avge [ 5 4 2 6 ] 3
+N avge [ 5 4 2 6 ] 5
+P avge [ 2 8 7 3 7 ] 4
+N avge [ 2 8 7 3 7 ] 7
+P avge [ 2 1 ] 1
+N avge [ 2 1 ] 2
+P avge [ 7 4 ] 5
+N avge [ 7 4 ] 7
+P avge [ 3 5 ] 4
+N avge [ 3 5 ] 5
+P avge [ 2 2 1 ] 0
+N avge [ 2 2 1 ] 3
+P avge [ 6 ] 6
+N avge [ 6 ] 8
+P avge [ 1 6 3 6 ] 3
+N avge [ 1 6 3 6 ] 5
+P avge [ 3 ] 3
+N avge [ 3 ] 4
+P avge [ 6 2 3 1 ] 3
+N avge [ 6 2 3 1 ] 5
+P avge [ 6 1 ] 3
+N avge [ 6 1 ] 4
+P avge [ 7 8 ] 7
+N avge [ 7 8 ] 9
+P avge [ 4 7 1 7 3 ] 4
+N avge [ 4 7 1 7 3 ] 6
+P avge [ 1 8 6 ] 5
+N avge [ 1 8 6 ] 7
+P avge [ 5 2 6 5 ] 4
+N avge [ 5 2 6 5 ] 5
+P avge [ 4 7 ] 5
+N avge [ 4 7 ] 7
+P avge [ 5 2 6 5 5 ] 3
+N avge [ 5 2 6 5 5 ] 5
+P avge [ 3 3 7 1 7 ] 4
+N avge [ 3 3 7 1 7 ] 5
+P avge [ 1 4 7 7 1 ] 3
+N avge [ 1 4 7 7 1 ] 5
+P avge [ 1 ] 0
+N avge [ 1 ] 2
+P avge [ 3 4 3 8 ] 4
+N avge [ 3 4 3 8 ] 5
+P avge [ 2 1 2 ] 0
+N avge [ 2 1 2 ] 2
+P avge [ 4 ] 4
+N avge [ 4 ] 5
+P avge [ 2 4 6 3 6 ] 4
+N avge [ 2 4 6 3 6 ] 6
+P avge [ 3 ] 2
+N avge [ 3 ] 5
+P avge [ 1 1 5 7 ] 3
+N avge [ 1 1 5 7 ] 5
+P avge [ 4 8 4 2 ] 4
+N avge [ 4 8 4 2 ] 5
+P avge [ 1 1 2 1 7 ] 2
+N avge [ 1 1 2 1 7 ] 4
+P avge [ 8 5 1 ] 3
+N avge [ 8 5 1 ] 6
+P avge [ 7 ] 6
+N avge [ 7 ] 9
+P avge [ 3 6 4 6 ] 3
+N avge [ 3 6 4 6 ] 6
+P avge [ 7 2 ] 4
+N avge [ 7 2 ] 5
+P avge [ 1 5 6 1 ] 2
+N avge [ 1 5 6 1 ] 5
+I avge [ 3 3 7 6 1 ] 4 avge [ 3 3 7 6 1 ] 6 => avge [ 3 3 7 6 1 ] 5 avge [ 3 3 7 6 1 ] 2
+I avge [ 7 ] 0 avge [ 7 ] 2 => avge [ 7 ] 7 avge [ 7 ] 3
+I avge [ 1 ] 2 avge [ 1 ] 2 => avge [ 1 ] 4 avge [ 1 ] 1
+I avge [ 1 1 3 1 ] 4 avge [ 1 1 3 1 ] 5 => avge [ 1 1 3 1 ] 0 avge [ 1 1 3 1 ] 0
+I avge [ 3 7 ] 1 avge [ 3 7 ] 2 => avge [ 3 7 ] 4 avge [ 3 7 ] 4
+I avge [ 6 6 3 ] 3 avge [ 6 6 3 ] 4 => avge [ 6 6 3 ] 5 avge [ 6 6 3 ] 1
+I avge [ 1 5 7 4 ] 0 avge [ 1 5 7 4 ] 6 => avge [ 1 5 7 4 ] 1 avge [ 1 5 7 4 ] 3
+I avge [ 4 ] 2 avge [ 4 ] 4 => avge [ 4 ] 3 avge [ 4 ] 6
+I avge [ 7 2 7 4 ] 4 avge [ 7 2 7 4 ] 7 => avge [ 7 2 7 4 ] 6 avge [ 7 2 7 4 ] 2
+I avge [ 3 ] 4 avge [ 3 ] 6 => avge [ 3 ] 2 avge [ 3 ] 5
+I avge [ 4 5 2 ] 1 avge [ 4 5 2 ] 4 => avge [ 4 5 2 ] 2 avge [ 4 5 2 ] 3
+I avge [ 7 ] 3 avge [ 7 ] 9 => avge [ 7 ] 5 avge [ 7 ] 5
+I avge [ 3 ] 0 avge [ 3 ] 5 => avge [ 3 ] 1 avge [ 3 ] 3
+I avge [ 2 5 8 ] 2 avge [ 2 5 8 ] 3 => avge [ 2 5 8 ] 4 avge [ 2 5 8 ] 5
+I avge [ 7 8 6 7 ] 1 avge [ 7 8 6 7 ] 2 => avge [ 7 8 6 7 ] 7 avge [ 7 8 6 7 ] 6
+I avge [ 4 ] 1 avge [ 4 ] 2 => avge [ 4 ] 4 avge [ 4 ] 0
+I avge [ 5 2 2 2 1 ] 1 avge [ 5 2 2 2 1 ] 4 => avge [ 5 2 2 2 1 ] 3 avge [ 5 2 2 2 1 ] 5
+I avge [ 3 6 3 6 1 ] 2 avge [ 3 6 3 6 1 ] 5 => avge [ 3 6 3 6 1 ] 3 avge [ 3 6 3 6 1 ] 6
+I avge [ 4 5 4 1 ] 2 avge [ 4 5 4 1 ] 4 => avge [ 4 5 4 1 ] 3 avge [ 4 5 4 1 ] 3
+I avge [ 3 7 6 4 ] 4 avge [ 3 7 6 4 ] 7 => avge [ 3 7 6 4 ] 6 avge [ 3 7 6 4 ] 0
+I avge [ 5 8 8 ] 4 avge [ 5 8 8 ] 8 => avge [ 5 8 8 ] 6 avge [ 5 8 8 ] 2
+I avge [ 7 3 4 7 7 ] 0 avge [ 7 3 4 7 7 ] 6 => avge [ 7 3 4 7 7 ] 2 avge [ 7 3 4 7 7 ] 3
+I avge [ 7 6 6 ] 0 avge [ 7 6 6 ] 2 => avge [ 7 6 6 ] 6 avge [ 7 6 6 ] 5
+I avge [ 6 3 2 ] 1 avge [ 6 3 2 ] 4 => avge [ 6 3 2 ] 3 avge [ 6 3 2 ] 3
+I avge [ 8 6 1 ] 1 avge [ 8 6 1 ] 2 => avge [ 8 6 1 ] 4 avge [ 8 6 1 ] 4
+I avge [ 2 5 4 8 ] 4 avge [ 2 5 4 8 ] 5 => avge [ 2 5 4 8 ] 6 avge [ 2 5 4 8 ] 0
+I avge [ 1 7 8 1 7 ] 1 avge [ 1 7 8 1 7 ] 5 => avge [ 1 7 8 1 7 ] 2 avge [ 1 7 8 1 7 ] 0
+I avge [ 3 6 5 8 1 ] 2 avge [ 3 6 5 8 1 ] 4 => avge [ 3 6 5 8 1 ] 3 avge [ 3 6 5 8 1 ] 0
+I avge [ 4 7 6 ] 1 avge [ 4 7 6 ] 6 => avge [ 4 7 6 ] 3 avge [ 4 7 6 ] 5
+I avge [ 7 6 1 6 ] 1 avge [ 7 6 1 6 ] 7 => avge [ 7 6 1 6 ] 3 avge [ 7 6 1 6 ] 0
+I avge [ 7 4 6 ] 4 avge [ 7 4 6 ] 6 => avge [ 7 4 6 ] 5 avge [ 7 4 6 ] 3
+I avge [ 1 ] 3 avge [ 1 ] 3 => avge [ 1 ] 4 avge [ 1 ] 0
+I avge [ 2 8 1 3 ] 4 avge [ 2 8 1 3 ] 5 => avge [ 2 8 1 3 ] 2 avge [ 2 8 1 3 ] 6
+I avge [ 7 ] 4 avge [ 7 ] 9 => avge [ 7 ] 5 avge [ 7 ] 5
+I avge [ 1 ] 3 avge [ 1 ] 5 => avge [ 1 ] 0 avge [ 1 ] 2
+I avge [ 7 8 3 4 ] 4 avge [ 7 8 3 4 ] 6 => avge [ 7 8 3 4 ] 5 avge [ 7 8 3 4 ] 3
+I avge [ 3 6 ] 0 avge [ 3 6 ] 2 => avge [ 3 6 ] 4 avge [ 3 6 ] 4
+I avge [ 1 7 4 ] 0 avge [ 1 7 4 ] 5 => avge [ 1 7 4 ] 2 avge [ 1 7 4 ] 1
+I avge [ 5 3 3 4 ] 3 avge [ 5 3 3 4 ] 4 => avge [ 5 3 3 4 ] 2 avge [ 5 3 3 4 ] 2
+I avge [ 7 7 4 8 ] 1 avge [ 7 7 4 8 ] 7 => avge [ 7 7 4 8 ] 3 avge [ 7 7 4 8 ] 5
+I avge [ 5 ] 3 avge [ 5 ] 5 => avge [ 5 ] 4 avge [ 5 ] 1
+I avge [ 8 8 ] 3 avge [ 8 8 ] 9 => avge [ 8 8 ] 5 avge [ 8 8 ] 2
+I avge [ 5 3 1 4 ] 3 avge [ 5 3 1 4 ] 5 => avge [ 5 3 1 4 ] 2 avge [ 5 3 1 4 ] 6
+I avge [ 2 2 6 ] 2 avge [ 2 2 6 ] 5 => avge [ 2 2 6 ] 3 avge [ 2 2 6 ] 4
+I avge [ 2 4 3 4 ] 1 avge [ 2 4 3 4 ] 5 => avge [ 2 4 3 4 ] 2 avge [ 2 4 3 4 ] 2
+I avge [ 1 6 8 7 6 ] 4 avge [ 1 6 8 7 6 ] 6 => avge [ 1 6 8 7 6 ] 5 avge [ 1 6 8 7 6 ] 1
+I avge [ 7 4 1 3 ] 0 avge [ 7 4 1 3 ] 2 => avge [ 7 4 1 3 ] 3 avge [ 7 4 1 3 ] 4
+I avge [ 3 2 ] 3 avge [ 3 2 ] 5 => avge [ 3 2 ] 2 avge [ 3 2 ] 6
+I avge [ 4 1 8 1 5 ] 4 avge [ 4 1 8 1 5 ] 5 => avge [ 4 1 8 1 5 ] 3 avge [ 4 1 8 1 5 ] 0
+I avge [ 5 5 6 7 4 ] 0 avge [ 5 5 6 7 4 ] 2 => avge [ 5 5 6 7 4 ] 4 avge [ 5 5 6 7 4 ] 3
+I avge [ 2 6 8 7 ] 0 avge [ 2 6 8 7 ] 6 => avge [ 2 6 8 7 ] 1 avge [ 2 6 8 7 ] 5
+I avge [ 3 8 6 7 ] 1 avge [ 3 8 6 7 ] 2 => avge [ 3 8 6 7 ] 5 avge [ 3 8 6 7 ] 5
+I avge [ 3 8 7 ] 0 avge [ 3 8 7 ] 7 => avge [ 3 8 7 ] 2 avge [ 3 8 7 ] 5
+I avge [ 7 2 4 4 8 ] 3 avge [ 7 2 4 4 8 ] 7 => avge [ 7 2 4 4 8 ] 5 avge [ 7 2 4 4 8 ] 6
+End
