@@ -1,0 +1,5 @@
+(executables
+   (names learnMp)
+   (libraries base stdio torch)
+)
+
