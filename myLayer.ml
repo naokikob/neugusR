@@ -111,7 +111,7 @@ let l_cexp vs ~input_dim ~binput_dim ~output_dim ~boutput_dim ~hidden1 ~hidden2 
   (*  
   let x = Tensor.(reshape (bs * cs) ~shape:[s1; s2'; output_dim]) in
    *)
-  let outs = Tensor.(sum_dim_intlist (bs' * cs') ~dim:[2] ~keepdim:false ~dtype:(T Float)) in
+  let outs = Tensor.(sum_dim_intlist (bs' * cs') ~dim:(Some [2]) ~keepdim:false ~dtype:(T Float)) in
   let _ = if !save_classification then
             history_cexp := discretize_cexp_inout(inp, binp, bs, outs, bouts)
                             @ !history_cexp

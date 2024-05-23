@@ -495,7 +495,7 @@ let emodel layer1 layer2 layer3 xs bs =
   let _ = if !save_classification then
             last_classification := cs
   in
-   Tensor.(sum_dim_intlist (cs * os) ~dim:[1] ~keepdim:false ~dtype:(T Float)) 
+   Tensor.(sum_dim_intlist (cs * os) ~dim:(Some [1]) ~keepdim:false ~dtype:(T Float)) 
   
 let prepare_models vs =
   let model_id = ref 0 in
@@ -1096,7 +1096,7 @@ let rec fit numepochs optm =
          last_imp_miss := n3-c3;
          if !last_miss=0 && !last_loss < !loss_threshold
          then sharpen_booleans := true else sharpen_booleans := false;
-         if !last_miss=0 && !cut_training && !last_loss < 0.01 *. !loss_threshold
+         if !last_miss=0 && !cut_training && !last_loss < 0.1 *. !loss_threshold
          then raise Done (* finish if the current loss is well below the threshold *)
          else
            if i> numepochs/3 && !last_miss > 5 && !retry>0 then raise Retry
